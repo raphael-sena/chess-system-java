@@ -36,7 +36,7 @@ public class UI {
 		System.out.flush();
 	}
 	
-	public static ChessPosition readChessPPosition(Scanner sc) {
+	public static ChessPosition readChessPosition(Scanner sc) {
 		try {
 			String s = sc.nextLine();
 			char column = s.charAt(0);
